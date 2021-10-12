@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b989334b-13d9-4646-ac14-e0c4cb38db96" name="Default Changelist" comment="" />
+    <list default="true" id="b989334b-13d9-4646-ac14-e0c4cb38db96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1zMVxO6pmjbEUCiMNvv8s065efY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -173,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633958189469</updated>
       <workItem from="1633958190804" duration="1596000" />
-      <workItem from="1633960731506" duration="6623000" />
+      <workItem from="1633960731506" duration="7104000" />
     </task>
     <servers />
   </component>
@@ -189,6 +196,14 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="251" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1633966111029" />
+    <state x="726" y="464" key="Github.ShareDialog" timestamp="1633968047125">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="726" y="464" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1633968047125" />
+    <state x="524" y="260" key="Github.UntrackedFilesDialog" timestamp="1633968102734">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="524" y="260" key="Github.UntrackedFilesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1633968102734" />
     <state width="1750" height="420" key="GridCell.Tab.0.bottom" timestamp="1633967922960">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

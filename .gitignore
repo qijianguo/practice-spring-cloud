@@ -1,2 +1,6 @@
 # Project exclude paths
 /first-spring-boot/target/
+first-spring-boot/src/test/
+.idea/vcs.xml
+.idea
+*.iml
