@@ -1,4 +1,25 @@
 package com.qijianguo.springcloue.eureka.client.article.config;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * @author qijianguo
+ */
+@Configuration
 public class BeanConfiguration {
+
+
+    /*@Bean
+    public RestTemplate getRestTemplate() {
+        return new RestTemplate();
+    }*/
+
+    @LoadBalanced
+    @Bean
+    public RestTemplate getRestTemplate() {
+        return new RestTemplate();
+    }
 }

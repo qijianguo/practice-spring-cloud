@@ -1,4 +1,4 @@
-package com.qijianguo.springcloud.eureka.client;
+package com.qijianguo.springcloud.eureka.client.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

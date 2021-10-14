@@ -23,10 +23,10 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.qijianguo.springcloud</groupId>
             <artifactId>first-spring-boot</artifactId>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
