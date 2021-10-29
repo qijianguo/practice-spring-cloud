@@ -15,8 +15,10 @@
     <modules>
         <module>first-spring-boot</module>
         <module>eureka-server</module>
-        <module>eureka-client-user-service</module>
-        <module>eureka-client-article-service</module>
+        <module>user-service</module>
+        <module>article-service</module>
+        <module>ribbon-native-demo</module>
+        <module>spring-rest-template</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -27,6 +29,7 @@
 
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
