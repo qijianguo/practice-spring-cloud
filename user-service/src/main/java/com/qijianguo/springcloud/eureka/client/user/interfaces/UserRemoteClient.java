@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author qijianguo
  */
 @Component
-@FeignClient(name = "user-service", configuration = FeignConfiguration.class)
+@FeignClient(name = "user-service", configuration = FeignConfiguration.class, fallback = UserRemoteClientFallback.class)
 public interface UserRemoteClient {
 
     @GetMapping("/user/hello")
