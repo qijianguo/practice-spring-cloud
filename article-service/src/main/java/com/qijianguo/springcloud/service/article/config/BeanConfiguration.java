@@ -1,4 +1,4 @@
-package com.qijianguo.springcloue.eureka.client.article.config;
+package com.qijianguo.springcloud.service.article.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

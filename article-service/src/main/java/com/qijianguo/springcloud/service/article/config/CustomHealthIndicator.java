@@ -1,8 +1,7 @@
-package com.qijianguo.springcloue.eureka.client.article.config;
+package com.qijianguo.springcloud.service.article.config;
 
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 /**

@@ -1,8 +1,7 @@
-package com.qijianguo.springcloud.eureka.client.user.config;
+package com.qijianguo.springcloud.service.user.config;
 
 import feign.Logger;
 import feign.Request;
-import feign.auth.BasicAuthRequestInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package com.qijianguo.springcloud.eureka.client.user.config;
+package com.qijianguo.springcloud.service.user.config;
 
 
 import feign.RequestInterceptor;

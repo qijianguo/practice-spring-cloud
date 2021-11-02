@@ -1,7 +1,7 @@
-package com.qijianguo.springcloue.eureka.client.article.controller;
+package com.qijianguo.springcloud.service.article.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
-import com.qijianguo.springcloud.eureka.client.user.interfaces.UserRemoteClient;
+import com.qijianguo.springcloud.service.user.interfaces.UserRemoteClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,10 +19,10 @@ import java.util.Map;
 @RequestMapping("/article")
 public class ArticleController {
 
-    @Autowired
-    private RestTemplate restTemplate;
+//    @Autowired
+//    private RestTemplate restTemplate;
 
-    @Autowired
+    @Autowired(required = false)
     private UserRemoteClient userRemoteClient;
 
     @HystrixCommand(
@@ -43,7 +43,7 @@ public class ArticleController {
     }
 
     public String helloFallback() {
-        return "fail";
+        return "article-service fail";
     }
 
 }

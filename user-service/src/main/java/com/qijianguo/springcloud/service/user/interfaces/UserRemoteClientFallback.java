@@ -1,4 +1,4 @@
-package com.qijianguo.springcloud.eureka.client.user.interfaces;
+package com.qijianguo.springcloud.service.user.interfaces;
 
 import org.springframework.stereotype.Component;
 

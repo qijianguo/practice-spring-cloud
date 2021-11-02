@@ -21,16 +21,30 @@
         <module>spring-rest-template</module>
         <module>hystrix-demo</module>
         <module>hystrix-feign-demo</module>
+        <module>zuul-demo</module>
     </modules>
 
     <packaging>pom</packaging>
 
     <properties>
+        <component-version>1.0-SNAPSHOT</component-version>
 
     </properties>
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>com.qijianguo.springcloud</groupId>
+                <artifactId>user-service</artifactId>
+                <version>${component-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.qijianguo.springcloud</groupId>
+                <artifactId>article-service</artifactId>
+                <version>${component-version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -61,11 +75,11 @@
                 <version>2.1.6.RELEASE</version>
             </dependency>
 
-            <dependency>
+            <!--<dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>2.0.6.RELEASE</version>
-            </dependency>
+            </dependency>-->
 
         </dependencies>
     </dependencyManagement>
