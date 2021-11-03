@@ -37,7 +37,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
-                    <mainClass>com.qijianguo.springcloud.spingboot.FirstSpringBootApplication</mainClass>
+                    <mainClass>com.qijianguo.springcloud.FirstSpringBootApplication</mainClass>
                 </configuration>
             </plugin>
             <!-- 编译插件 指定JDK版本 -->

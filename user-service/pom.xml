@@ -15,7 +15,7 @@
 
 
     <properties>
-        <start-class>com.qijianguo.springcloud.service.user.UserApplication</start-class>
+        <start-class>com.qijianguo.springcloud.UserApplication</start-class>
     </properties>
 
 
@@ -48,21 +48,26 @@
 <!--            <version>9.5.1</version>-->
 <!--        </dependency>-->
 
+        <!-- Hystrix 服务容错处理 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
-
+        <!-- 集群监控检查 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
+        <!-- 整合Dashboard查看监控数据 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
         </dependency>
-
+        <!-- Turbine 聚合集群数据 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-turbine</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

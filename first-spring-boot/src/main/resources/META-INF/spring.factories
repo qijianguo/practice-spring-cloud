@@ -1,3 +1,3 @@
 # 第四步：如果自定义的Starter跟启动类不在平级目录下，则在MATE-INF/spring.factories中配置如下：
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.qijianguo.springcloud.spingboot.starter.UserAutoConfigure
+  com.qijianguo.springcloud.starter.UserAutoConfigure
