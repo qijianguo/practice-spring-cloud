@@ -22,11 +22,11 @@ public class UserController {
     )
     @GetMapping("/hello")
     public String hello(String name) {
-        try {
+        /*try {
             Thread.sleep(1000 * 10);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
         return "hello" + name;
     }
 

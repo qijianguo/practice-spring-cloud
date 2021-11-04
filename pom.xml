@@ -23,6 +23,7 @@
         <module>hystrix-feign-demo</module>
         <module>zuul-demo</module>
         <module>zuul-file-demo</module>
+        <module>gateway-demo</module>
     </modules>
 
     <packaging>pom</packaging>
